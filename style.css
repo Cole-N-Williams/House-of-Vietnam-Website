@@ -1,0 +1,9 @@
+body {
+    font-family: 'Public Sans', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fcfffc;
+    padding-top: 76px; /* Account for fixed navbar */
+}
+
+h1 {
+    color: #da251c;
+}
