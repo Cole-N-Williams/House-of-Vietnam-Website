@@ -1,8 +1,13 @@
 body {
     font-family: 'Public Sans', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    background-color: #fcfffc;
 
     background-image: url("assets/flag.svg");
+    background-color: #fff772;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
 }
 
 .secondary-color {
