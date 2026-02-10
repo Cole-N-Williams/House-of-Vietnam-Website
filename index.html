@@ -28,12 +28,84 @@
 </head>
 
 <body>
-    <div class="maintenance-box position-relative">
-        <img src="assets/logo.svg" alt="House of Vietnam Logo" class="mx-auto d-block img-fluid">
-        <div class="position-absolute">
-            <h1 class="display-8 fw-bold text-center">Sorry, we're under maintenance.</h1>
-            <h1 class="display-8 fw-bold text-center">Please check back soon!</h1>
+    <!-- Maintenance Page -->
+    <div class="container-fluid vh-100 d-flex flex-column position-relative overflow-hidden">
+        <!-- Background Logo -->
+        <!-- <img src="assets/logo.svg" alt="House of Vietnam Logo" class="maintenance-logo-bg"> -->
+        
+        <!-- Main Content -->
+        <div class="flex-grow-1 d-flex align-items-center justify-content-center">
+            <div class="text-center px-4 position-relative" style="z-index: 10;">
+                <!-- Main Heading -->
+                <h1 class="display-4 fw-bold mb-3 secondary-color">We'll Be Right Back!</h1>
+                
+                <!-- Subheading -->
+                <p class="lead text-muted mb-4">
+                    Our website is currently undergoing maintenance. Check back soon!
+                </p>
+                
+                <!-- Status Card -->
+                <div class="card shadow-sm mx-auto maintenance-card" style="max-width: 500px;">
+                    <div class="card-body py-3">
+                        <div class="mb-2">
+                            <i class="fas fa-hourglass fa-2x secondary-color"></i>
+                        </div>
+                        <h5 class="card-title mb-3">Maintenance Status</h5>
+                        
+                        <!-- Status Items -->
+                        <div class="mb-3 text-start">
+                            <div class="mb-2">
+                                <small class="text-muted d-block mb-1">Current Status:</small>
+                                <span class="badge bg-warning text-dark">In Progress</span>
+                                <!-- <span class="badge bg-success text-light">Testing</span> -->
+                                <!-- <span class="badge bg-success text-light">Finished</span> -->
+                            </div>
+                            <div class="mb-2">
+                                <small class="text-muted d-block mb-1">Estimated Time:</small>
+                                <span class="text-dark">Unknown</span>
+                            </div>
+                            <div>
+                                <small class="text-muted d-block mb-1">Progress:</small>
+                                <div class="progress" style="height: 20px;">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="mt-3">
+                    <p class="text-muted mb-2">Need immediate assistance?</p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="tel:+1234567890" class="btn btn-outline-danger btn-sm">
+                            <i class="fas fa-phone me-2"></i>Call Us
+                        </a>
+                        <a href="mailto:info@houseofvietnam.com" class="btn btn-outline-danger btn-sm">
+                            <i class="fas fa-envelope me-2"></i>Email Us
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        <!-- Footer with Social Media -->
+        <footer class="py-2 position-relative text-center" style="z-index: 10;">
+            <div>
+                <p class="text-muted mb-2 small">Follow us:</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#" class="text-decoration-none social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
