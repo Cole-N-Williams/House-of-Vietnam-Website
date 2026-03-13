@@ -21,6 +21,7 @@ async function loadComponents() {
     }
 }
 
+// Set the link/page button for the current page to show which the current is
 function setActiveNavLink() {
     const currentPage = window.location.pathname.split('/').pop() || 'index.html';
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
